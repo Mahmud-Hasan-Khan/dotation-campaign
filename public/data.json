@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/441m0FB/Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "#aec8ff",
+        "card_bg_color": "#d9e5ff",
+        "text_button_bg_color": "#0052FF",
+        "description": "Maintaining good health is essential for a fulfilling life. It involves a balanced diet, regular exercise, and proper medical care. Taking care of your physical and mental well-being is a lifelong journey.",
+        "price": 19.99
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/DYxjMS4/Education.png",
+        "title": "Good Education",
+        "category": "Education",
+        "category_bg_color": "#ffc3c5",
+        "card_bg_color": "#ffe3e4",
+        "text_button_bg_color": "#ff444a",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": 29.99
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/4fm49GR/Clothing.png",
+        "title": "Clothing for Child",
+        "category": "Clothing",
+        "category_bg_color": "#d4ecc1",
+        "card_bg_color": "#ebf6e2",
+        "text_button_bg_color": "#87c953",
+        "description": "Elevate your style with our fashionable clothing collection. Discover the latest trends and express your personality through your wardrobe. Dress with confidence and make a statement.",
+        "price": 39.99
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/mDcNHGs/Food.png",
+        "title": "Food for All",
+        "category": "Food",
+        "category_bg_color": "#fdd2c4",
+        "card_bg_color": "#feeae3",
+        "text_button_bg_color": "#F87147",
+        "description": "Indulge in a culinary adventure with our delectable food offerings. From savory dishes to sweet treats, we bring you the flavors of the world. Satisfy your cravings and enjoy the art of food.",
+        "price": 49.99
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/441m0FB/Health.png",
+        "title": "Good Health for All",
+        "category": "Health",
+        "category_bg_color": "#aec8ff",
+        "card_bg_color": "#d9e5ff",
+        "text_button_bg_color": "#0052FF",
+        "description": "Maintaining good health is essential for a fulfilling life. It involves a balanced diet, regular exercise, and proper medical care. Taking care of your physical and mental well-being is a lifelong journey.",
+        "price": 24.99
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/DYxjMS4/Education.png",
+        "title": "Child Education",
+        "category": "Education",
+        "category_bg_color": "#ffc3c5",
+        "card_bg_color": "#ffe3e4",
+        "text_button_bg_color": "#ff444a",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": 34.99
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/4fm49GR/Clothing.png",
+        "title": "Winter Clothing",
+        "category": "Clothing",
+        "category_bg_color": "#d4ecc1",
+        "card_bg_color": "#ebf6e2",
+        "text_button_bg_color": "#87c953",
+        "description": "Elevate your style with our fashionable clothing collection. Discover the latest trends and express your personality through your wardrobe. Dress with confidence and make a statement.",
+        "price": 44.99
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/mDcNHGs/Food.png",
+        "title": "Healthy Food",
+        "category": "Food",
+        "category_bg_color": "#fdd2c4",
+        "card_bg_color": "#feeae3",
+        "text_button_bg_color": "#F87147",
+        "description": "Indulge in a culinary adventure with our delectable food offerings. From savory dishes to sweet treats, we bring you the flavors of the world. Satisfy your cravings and enjoy the art of food.",
+        "price": 54.99
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/441m0FB/Health.png",
+        "title": "Good Health",
+        "category": "Health",
+        "category_bg_color": "#aec8ff",
+        "card_bg_color": "#d9e5ff",
+        "text_button_bg_color": "#0052FF",
+        "description": "Maintaining good health is essential for a fulfilling life. It involves a balanced diet, regular exercise, and proper medical care. Taking care of your physical and mental well-being is a lifelong journey.",
+        "price": 29.99
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/DYxjMS4/Education.png",
+        "title": "Education for All",
+        "category": "Education",
+        "category_bg_color": "#ffc3c5",
+        "card_bg_color": "#ffe3e4",
+        "text_button_bg_color": "#ff444a",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": 39.99
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/4fm49GR/Clothing.png",
+        "title": "Clothing for All",
+        "category": "Clothing",
+        "category_bg_color": "#d4ecc1",
+        "card_bg_color": "#ebf6e2",
+        "text_button_bg_color": "#87c953",
+        "description": "Elevate your style with our fashionable clothing collection. Discover the latest trends and express your personality through your wardrobe. Dress with confidence and make a statement.",
+        "price": 49.99
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/mDcNHGs/Food.png",
+        "title": "Delicious Food",
+        "category": "Food",
+        "category_bg_color": "#fdd2c4",
+        "card_bg_color": "#feeae3",
+        "text_button_bg_color": "#F87147",
+        "description": "Indulge in a culinary adventure with our delectable food offerings. From savory dishes to sweet treats, we bring you the flavors of the world. Satisfy your cravings and enjoy the art of food.",
+        "price": 59.99
+    }
+]

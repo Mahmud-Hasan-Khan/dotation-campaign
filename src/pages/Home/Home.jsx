@@ -1,10 +1,15 @@
+import { useLoaderData } from "react-router-dom";
 import Banner from "../../components/Header/Banner/Banner";
+import Cards from "./Cards";
 
 const Home = () => {
+
+    const cards = useLoaderData();
+
     return (
         <div>
             <Banner></Banner>
-            <h1>This is Home</h1>
+            <Cards cards={cards}></Cards>
         </div>
     );
 };
