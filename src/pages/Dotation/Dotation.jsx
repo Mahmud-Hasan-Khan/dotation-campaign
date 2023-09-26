@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import DisplayDonationCard from "./DisplayDonationCard";
-import Statistics from "../Statistics/Statistics";
 
 const Dotation = () => {
 
@@ -15,12 +14,12 @@ const Dotation = () => {
         }
     }, [])
 
-    console.log(donations);
+    // console.log(donations);
     const visibleDonation = showAll ? donations : donations.slice(0, 4);
 
     return (
         <div className="my-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 {
                     visibleDonation.map(donation => (<DisplayDonationCard key={donation.id} donation={donation}></DisplayDonationCard>))
                 }

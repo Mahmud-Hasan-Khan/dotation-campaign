@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { Cell, Label, Legend, Pie, PieChart, Tooltip } from "recharts";
+import { Cell, Label, Legend, Pie, PieChart } from "recharts";
+import PropTypes from 'prop-types';
 
 const CustomLegend = ({ payload }) => {
     return (
@@ -27,7 +28,7 @@ const Statistics = () => {
         }
     }, []);
 
-    console.log(donations);
+    // console.log(donations);
 
     const receivedDonations = donations.length;
 
@@ -70,12 +71,17 @@ const Statistics = () => {
                         ))}
                         <Label content={renderCustomizedLabel} />
                     </Pie>
-                    <Tooltip />
+                    {/* <Tooltip /> */}
                     <Legend content={<CustomLegend />} />
                 </PieChart>
             </div>
         </div>
     );
 };
+
+CustomLegend.propTypes = {
+    payload: PropTypes.object.isRequired,
+    handleAddToCart: PropTypes.func.isRequired
+}
 
 export default Statistics;

@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 const DisplayDonationCard = ({ donation }) => {
     const { id, picture, category, title, price, card_bg_color, category_bg_color, text_button_bg_color } = donation;
@@ -28,12 +28,16 @@ const DisplayDonationCard = ({ donation }) => {
                     <h2 className="text-xl font-semibold">{title} </h2>
                     <p className="text-base font-semibold" style={textColor}> ${price} </p>
                     <div className="mt-1">
-                        <button className="text-xl font-semibold text-white px-3 py-1 rounded" style={bgColor}>View Details</button>
+                        <button className="text-xl font-semibold text-white px-1 lg:px-3 py-1 rounded" style={bgColor}>View Details</button>
                     </div>
                 </div>
             </div>
         </div>
     );
 };
+
+DisplayDonationCard.propTypes = {
+    donation: PropTypes.object.isRequired
+}
 
 export default DisplayDonationCard;

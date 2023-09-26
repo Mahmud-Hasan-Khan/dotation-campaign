@@ -3,7 +3,7 @@ import Swal from 'sweetalert2'
 
 const DisplayDonationDetails = ({ details }) => {
     const { id, picture, price, title, description, text_button_bg_color } = details;
-    console.log(details);
+    // console.log(details);
 
     const textColor = {
         backgroundColor: text_button_bg_color

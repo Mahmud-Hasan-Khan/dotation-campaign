@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import DisplayDonationDetails from './DisplayDonationDetails';
@@ -23,9 +22,5 @@ const DonationDetails = () => {
         </div>
     );
 };
-
-// DonationDetails.propTypes = {
-
-// };
 
 export default DonationDetails;
