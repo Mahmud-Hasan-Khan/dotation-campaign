@@ -22,7 +22,7 @@ const Home = () => {
 
     const handleSearchButton = () => {
         const filtered = cards.filter(card =>
-            card.category.toLowerCase().includes(search.toLowerCase()));
+            card.category.toLowerCase() == (search.toLowerCase()));
         setFilterCards(filtered);
         setSearch('')
     };
