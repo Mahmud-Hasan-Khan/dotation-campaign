@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import DisplayCard from "./DisplayCard";
 import PropTypes from 'prop-types';
+import Swal from "sweetalert2";
 
 const Home = () => {
     const [cards, setCards] = useState([]);
@@ -21,10 +22,26 @@ const Home = () => {
     }
 
     const handleSearchButton = () => {
+        // Check if the search input is empty
+        if (!search.trim()) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Empty Search',
+                text: 'Please enter a category.',
+            });
+            return;
+        }
         const filtered = cards.filter(card =>
             card.category.toLowerCase() == (search.toLowerCase()));
         setFilterCards(filtered);
-        setSearch('')
+        setSearch('');
+        if (filtered.length === 0) {
+            Swal.fire({
+                icon: 'error',
+                title: 'No Category Found',
+                text: 'Sorry, no results match your search.',
+            });
+        }
     };
 
     return (
