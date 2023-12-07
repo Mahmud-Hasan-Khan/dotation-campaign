@@ -24,3 +24,6 @@ Color for title and category text. The color of the text of the category and the
 
 ## Live Site Link
 - [Click Here to Open Live Site](https://6512f4182b163e16e937dc32--unrivaled-seahorse-762154.netlify.app/)
+
+## Screenshot
+![App Screenshot](https://i.ibb.co/k1cwjmN/donation-campaign.png)
